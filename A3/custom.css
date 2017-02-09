@@ -8,16 +8,16 @@
     text-align: center;
 }
 
-#smcol1st{
+#sm-col-1{
     text-align: left;
 }
 
-#smcol1st ul{
+#sm-col-1 ul{
     width: auto;
     padding-left: 0;
 }
 
-#smcol1st ul li {
+#sm-col-1 ul li {
     list-style: none;
     text-decoration: none;
     padding-top: 10px;
@@ -26,11 +26,25 @@
     border: 1px solid gray;
     border-collapse: collapse;
     overflow-x: auto;
-
-    
 }
 
-#smcol1st ul li a{
+#sm-col-1 ul li a{
     margin: 0px;
     width: auto;
 }
+
+.md-col-1{
+    
+}
+
+#ParaHead{
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+#md-col-para{
+    font-size: 18px;
+}
+
+
