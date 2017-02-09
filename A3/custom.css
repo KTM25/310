@@ -9,20 +9,24 @@
 }
 
 #smcol1st{
-    width: 500px;
-    margin: 0 auto 0 auto;
+    text-align: left;
 }
 
 #smcol1st ul{
     width: auto;
+    padding-left: 0;
 }
 
 #smcol1st ul li {
+    list-style: none;
     text-decoration: none;
     padding-top: 10px;
     padding-left: 10px;
     padding-bottom: 15px;
     border: 1px solid gray;
+    border-collapse: collapse;
+    overflow-x: auto;
+
     
 }
 
