@@ -1,5 +1,32 @@
 
+#wrapper{
+    font-size: 15px;
+}
+
 .jumbotron{
     margin-bottom: 0px;
     text-align: center;
+}
+
+#smcol1st{
+    width: 500px;
+    margin: 0 auto 0 auto;
+}
+
+#smcol1st ul{
+    width: auto;
+}
+
+#smcol1st ul li {
+    text-decoration: none;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    border: 1px solid gray;
+    
+}
+
+#smcol1st ul li a{
+    margin: 0px;
+    width: auto;
 }
