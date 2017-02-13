@@ -8,29 +8,11 @@
     text-align: center;
 }
 
-#md-col-1{
-    text-align: left;
-}
-
-#md-col-1 ul{
-    width: auto;
-    padding-left: 0;
-}
-
 #md-col-1 ul li {
-    list-style: none;
-    text-decoration: none;
     padding-top: 10px;
     padding-left: 10px;
     padding-bottom: 15px;
-    border: 1px solid gray;
-    border-collapse: collapse;
-    overflow-x: auto;
-}
 
-#md-col-1 ul li a{
-    margin: 0px;
-    width: auto;
 }
 
 #ParaHead{
