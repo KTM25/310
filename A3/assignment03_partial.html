@@ -58,11 +58,18 @@
 								<li><a href="#">Assignment 2</a></li>
 								<li><a href="#">Assignment 3</a></li>
 							</ul>
-							
 						</li><!--end of class dropdown-->
 
-						<li><a href="#">Progress</a></li>
-						<li><a href="#">Syllabus</a></li>
+						<li class="dropdown">
+							<a class="drop-toggle" data-toggle="dropdown" href="#">CT 310<span class="caret"></span></a> 
+							<!-- data-toggle enables the dropdown and needs to be named dropdown and span w/ class will create the symbol -->
+							<ul class="dropdown-menu"> <!-- dropdown-menu puts the assignments under the assignment dropdown -->
+								<li><a href="https://www.cs.colostate.edu/~ct310/yr2017sp/home_syllabus.php">Syllabus</a></li>
+								<li><a href="https://www.cs.colostate.edu/~ct310/yr2017sp/home_progress.php">Progress</a></li>
+							</ul>
+						</li><!--end of class dropdown-->
+
+						<li><a href="http://info.canvas.colostate.edu/">Canvas</a></li>
 					</ul>
 							
 				</div><!-- end of collapse navbar-collapse -->
@@ -76,7 +83,7 @@
 				<div class="row visible-on">
 					
 					<div class="col-md-4" id="md-col-1"> <!-- to move to the next grid just create another div of the same or different class --> <!-- use table-responsive -->
-					
+
 							<ul class="list-group">
 								<li class="list-group-item"><a href="https://www.cs.colostate.edu/~ct310/yr2017sp/">CT310 Home</a></li>
 								<li class="list-group-item"><a href="https://www.cs.colostate.edu/cstop/">CS Department</a></li>
@@ -85,7 +92,7 @@
 
 					</div><!-- end of 1st sm-col -->
 					
-					<div class="col-lg-4 col-md-8" id="md-col-2">
+					<div class="col-lg-4" id="lg-col-1">
 						
 						<h1 id="ParaHead" class>Contents of Page</h1>
 
@@ -97,7 +104,7 @@
 						
 					</div> <!-- end of md col -->
 					
-					<div class="col-md-4" id="md-col-3">
+					<div class="col-md-4" id="md-col-2">
 
 						<img id="photo1" src="./SubieKip.jpg"   class="img-circle hidden-xs hidden-sm"  alt="Kipper in my Subaru" />
 
