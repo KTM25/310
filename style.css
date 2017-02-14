@@ -26,6 +26,10 @@ input[type=text], input[type=password]{
     border: 1px solid #6B888F;
 
 }
+button{
+    margin: 8px 0;
+    width: 100%;
+}
 
 .loginbtn{
     background-color: #2C3D4F;
@@ -35,6 +39,13 @@ input[type=text], input[type=password]{
     border: none;
     cursor: pointer;
     width: 100%;
+}
+
+.cancelbtn{
+    width: auto;
+    padding: 10px 18px;
+    background-color: #959492;
+    cursor: pointer;
 }
 
 .footer{
