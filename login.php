@@ -1,23 +1,24 @@
 <?php
-session_start(); $username = $password = $userError = $passError = '';
+session_start(); $username = $password = $userError = $passError = $date = '';
 if(isset($_POST['sub'])){
   $username = $_POST['username']; 
   $password = $_POST['password'];
-  // $date = $_POST['m/d/Y h:i'];
+  $date =  date('h:i m/d/Y');
   
   if(($username === 'admin' && $password === 'password') || ($username === 'ktmangus' && $password === 'ktmangus25')){
     $_SESSION['login'] = true; 
     header('LOCATION:login.php'); 
     die();
   }
-  if($username !== 'admin'){
-    $userError = 'Invalid Username';
-    // $date;
-  }
+  // if($username !== 'admin' | $username !== 'ktmangus' ){
+  //   $userError = 'Invalid Username on ';
+  // }
 
-  if($password !== 'password'){
-    $passError = 'Invalid Password ';
-    date('m/d/Y');
+  // if($password !== 'password' | $password !== 'ktmangus25'){
+  //   $passError = 'Invalid Password on ';
+  // }
+  if(($username !== 'admin' && $password !== 'password') | ($username !== 'ktmangus' && $password !== 'ktmangus25') ){
+    $passError = 'Invalid Username or Password on ';
   }
 }
 ?>
@@ -47,13 +48,15 @@ if(isset($_POST['sub'])){
         <label for='username'></label>
         <input type='text' value='<?php echo $username; ?>' id='username' name='username' placeholder='Enter Password' />
 
-        <div class='error'>$userError</div>
+        <!--<div class='error'>
+           <?php echo $userError; echo $date; ?>
+        </div>-->
 
         <label for='password'></label>
         <input type='password' value='<?php echo $password; ?>' id='password' name='password' placeholder='Enter Password' />
 
         <div class='error'>
-          <?php echo $passError; ?>
+          <?php echo $passError; echo $date; ?>
         </div>
         <input type='submit' value='loginbtn' name='sub' />
   </form>
