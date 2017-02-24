@@ -7,6 +7,15 @@ body{
     
 }
 
-.navbar-inverse{
-    background-color: purple;
+.header{
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+
+.header h1{
+    font-size: 45px;
+}
+
+.navbar-inverse{ /*bootstrap bar*/
+    background-color: black;
 }
