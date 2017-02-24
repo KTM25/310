@@ -17,5 +17,14 @@ body{
 }
 
 .navbar-inverse{ /*bootstrap bar*/
-    background-color: black;
+    /*background-color: black;*/
+}
+
+
+#menu{
+    font-size:30px;
+    cursor:pointer;
+    color: #f1f1f1;
+    float: right;
+    padding-top: 5px;
 }
