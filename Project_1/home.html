@@ -34,6 +34,7 @@
                 </ul>
 
                 <span id="menu" style="" onclick="openNav()">Menu &#9776;</span>
+
             </div>
         </nav>
 
@@ -41,10 +42,18 @@
             <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>-->
             <a href="#" class="closebtn" onclick="closeNav()">&times;</a>
             <a href="#">About</a>
-            <a href="#">Services</a>
         </div>
 
     <!--Add javascript for menu functionality-->
+<script>
+    function openNav() {
+    document.getElementById("sideMenu").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("sideMenu").style.width = "0";
+}
+</script>
 
     </div><!-- End of Wrapper -->
 </body>
