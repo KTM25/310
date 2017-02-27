@@ -50,6 +50,26 @@ body{
     transition: 0.3s
 }
 
+/*.sidebar .dropdown{
+    padding-top: 0px;
+}*/
+
+.sidenav .dropdown-menu{
+    margin-left: 25px;
+    background-color: #111;
+}
+
+#dropdown-menu a{
+    color: #818181;
+}
+
+
+#dropdown-menu a:hover{
+    color: #f1f1f1;
+    background-color: transparent;
+}
+
+
 .sidenav a:hover{
     color: #f1f1f1;
 }
