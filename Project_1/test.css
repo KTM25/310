@@ -26,19 +26,35 @@ body {
     transition: 0.3s
 }
 
-.sidenav a:hover, .offcanvas a:focus{
+.sidenav a:hover{
     color: #f1f1f1;
 }
 
 .sidenav .closebtn {
     position: absolute;
     top: 0;
-    /*right: 25px;
-    font-size: 36px;
-    margin-left: 50px;*/
+}
+
+.sidenav .dropdown-menu{
+    margin-left: 25px;
+    background-color: #111;
+    
+}
+
+#dropdown-menu a{
+    color: #818181;
 }
 
 
+#dropdown-menu a:hover{
+    color: #f1f1f1;
+    background-color: transparent;
+}
+
+#caret{
+    margin-top: 17px;
+    position: fixed;
+}
 
 #menuSpan{
     padding-top: 5px;
@@ -46,4 +62,9 @@ body {
     cursor:pointer; 
     float:right; 
     color: white;
+}
+
+.footer{
+    float: bottom;
+    text-align: center;
 }
