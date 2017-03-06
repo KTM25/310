@@ -1,0 +1,85 @@
+<!Doctype HTML>
+<html>
+    
+<head>
+   
+    <title>About Page</title>
+   
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="./about_style.css">
+
+</head>
+
+<body>
+    <div class="header"><h1> About Us </h1></div>
+
+        <div id="wrapper">
+            <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#" style="color: #FCFFF5">About Us</a>
+                    </div>
+                    
+                    <ul class="nav navbar-nav">
+                        <li class="active" id="home"><a href="../home.html">Home</a></li>
+                    </ul>
+        
+                    <span id="menuSpan" style="" onclick="openNav()">&#9776; Menu</span>
+                </div>
+            </nav>     
+            
+            <div id="mySidenav" class="sidenav" >
+                <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>-->
+                <a href="#" class="closebtn" onclick="closeNav()">&times;</a>
+                    
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Ingrediants<span class="caret" id="caret"></span></a>   
+                        <ul class="dropdown-menu" id="dropdown-menu">
+                            <li><a href="#">Cayenne</a></li>
+                            <li><a href="#">Saffron</a></li>
+                            <li><a href="#">Spearmint</a></li>
+                        </ul>
+                    </li>
+
+                    <a href="./about.html">About</a>
+                    <a href="#">Login</a>
+            </div> 
+
+                <h2 id="kev_heading">Kevin Mangus</h2>
+                
+                         
+            
+                <p> <img id="kev_image" style="width:250px; height: 250px; float: left"  src="./kev.jpg"/> &nbsp My name is Kevin and I am an Applied Computing Technology Major born and raised in San Diego California. 
+                                                                                                            <br/> &nbsp I currently live in apartment and own a Subaru WRX Hatchback (besides school and life, this car is where my money goes).
+                                                                                                            <br/> &nbsp Who am I you ask? I am a car enthusiast, drumming drummer, video game player, dog loving IT technician who also enjoys gorgeous days, being outside, and great mountain biking!
+                                                                                                            <br/> &nbsp "A ginger who likes being outside?" Yeahhh I know, I'm pretty different.
+                                                                                                            <br/> &nbsp Goals in life: Own 4-5 cars and not work in an IT department that is in the basement and ending up like Moss and Roy in the IT Crowd.
+                                                                                                            <br/> &nbsp Enjoy a good laugh! and yes this does happen..<a href="https://www.youtube.com/watch?v=rksCTVFtjM4"> IT Crowd Tech Support YouTube Video</p>
+
+            
+             <div class="footer">
+                &copy; Copyright 2017, <!-- &copy get the copyright symbol -->
+                Jake Newell and Kevin Mangus 
+            </div>
+        </div>
+
+        <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+            document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+            document.body.style.backgroundColor = "white";
+        }
+        </script>
+
+</body>
+</html>
