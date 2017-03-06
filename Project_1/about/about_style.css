@@ -1,7 +1,9 @@
 body {
     font-family: "Lato", sans-serif;
     transition: background-color .5s;
-        background-color: #EFECCA;
+    background-color: #EFECCA;
+    padding-bottom: 60px;
+
 }
 
 .color{
@@ -38,11 +40,11 @@ color:
 }
 
 #kev_heading{
-    margin-left: 102px;
+    margin-left: 10px;
 }
 
 #kev_image{
-    margin-left: 102px;
+    margin-left: 10px;
 }
 
 /*#kev_para{
@@ -111,6 +113,10 @@ color:
 }
 
 .footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px
     float: bottom;
     text-align: center;
 }
