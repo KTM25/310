@@ -1,7 +1,8 @@
 body {
     font-family: "Lato", sans-serif;
     transition: background-color .5s;
-        background-color: #EFECCA;
+    background-color: #EFECCA;
+    padding-bottom: 60px;
 }
 
 
@@ -20,13 +21,18 @@ color:
     /*background-color: #D1DBBD;*/
 }
 
-.header{
+.jumbotron{
     text-align: center;
-    padding: 10px 0 10px 0;
+    padding: auto 0 auto 0;
+    background-color: #EFECCA;
 }
 
-.header h1{
+.jumbotron h1{
     font-size: 45px;
+}
+
+.jumbotron img{
+    float: left;
 }
 
 .container-fluid{
@@ -98,8 +104,22 @@ color:
     margin-top: 17px;
     position: fixed;
 }
+#middle{
+    float: left;
+}
+
+
+
+#right{
+    float: left;
+
+}
 
 .footer{
-    float: bottom;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px
+    fixed: bottom;
     text-align: center;
 }
