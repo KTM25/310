@@ -1,0 +1,30 @@
+body{
+
+}
+
+.wrapper{
+    
+}
+
+.header{
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+
+.header h1{
+    font-size: 45px;
+}
+
+.navbar-inverse{ /*bootstrap bar*/
+    /*background-color: black;*/
+}
+
+
+#menu{
+    font-size:30px;
+    cursor:pointer;
+    color: #f1f1f1;
+    float: right;
+    padding-top: 5px;
+}
+Contact GitHub 

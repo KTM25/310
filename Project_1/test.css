@@ -68,3 +68,21 @@ body {
     float: bottom;
     text-align: center;
 }
+
+
+
+
+/*extra shit */
+
+
+#home a{
+    background-color: #046380;
+}
+
+#kev_heading{
+    margin-left: 102px;
+}
+
+#kev_image{
+    margin-left: 102px;
+}
