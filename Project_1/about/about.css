@@ -55,11 +55,21 @@ color:
 }
 
 #kev_heading{
-    margin-left: 102px;
+    text-align: center;
 }
 
 #kev_image{
-    margin-left: 102px;
+  display: block;
+  margin: auto;
+}
+
+#jake_heading{
+    text-align: center;
+}
+
+#jake_image{
+  display: block;
+  margin: auto;
 }
 
 #menuSpan{
