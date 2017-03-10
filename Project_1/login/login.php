@@ -17,7 +17,9 @@ if(isset($_POST['sub'])){
  
  //hash for user is subaru
   
-  if(($username == 'ct310' && $password == (md5($password) == '48f2f942692b08ec9de1ef9ada5230a3'))  || ($username == 'ktmangus' && $password == (md5($password) == '0b9c5120ea86155f02d81e6f2f90c900'))){
+  if(($username == 'ct310' && $password == (md5($password) == '3aaec86181ee6974b99d893b4c1eb5b5'))  || ($username == 'ktmangus' && $password == (md5($password) == '0b9c5120ea86155f02d81e6f2f90c900')) || 
+    ($username == 'Newell' && $password == (md5($password) == 'b17d786a74bba26294479f94ca4dfd43'))){
+
     $_SESSION['username'] = $username; 
     //  echo '<script type="text/javascript"> window.open("protected.php","_self");</script>';
     $successLogin = 'Successful Login on ';
@@ -44,7 +46,7 @@ if(isset($_POST['sub'])){
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="./login.css">
+    <link rel="stylesheet" href="../style.css">
 
 </head>
 <body>
