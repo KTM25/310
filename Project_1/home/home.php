@@ -8,8 +8,6 @@ if(isset($_SESSION['username'])){ //checks that it is the same user
 
 ?>
 
-
-
 <!Doctype HTML>
 <html>
     
