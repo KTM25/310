@@ -50,7 +50,7 @@ if(isset($_SESSION['username'])){ //checks that it is the same user
                 </p>
             </div>                                                                                                         
           
-             <!--<?php //include('../footer.php') ?>-->
+             <?php include('../footer.php') ?>
         </div>
 
 

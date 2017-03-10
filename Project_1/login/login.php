@@ -74,11 +74,10 @@ if(isset($_POST['sub'])){
             </form>
             </div>
 
-            <!-- Needs a fucking footer!!!!!!!!!!!!!!!!!!!!!! -->
+            <?php include('../footer.php') ?>
             
         </div><!-- End of wrapper -->
-
-     
+  
 </body>
 
 </html>
