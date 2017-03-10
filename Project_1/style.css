@@ -44,7 +44,25 @@ color:
      display: block;
      text-align: center;
 }
+
+#homeSpearmint{
+    text-align: center;
+}
 /*=========End of Header.php=========*/
+
+/*=========Home.php=========*/
+#homeCayenne {
+    text-align: center;
+}
+
+#homeSaffron{
+    text-align: center;
+}
+
+#homeSpearmint{
+    text-align: center;
+}
+/*=========End of Home.php=========*/
 
 /*=========Login Form=========*/
 .formwrap{
