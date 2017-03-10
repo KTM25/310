@@ -84,9 +84,9 @@ if(isset($_SESSION['username'])){ //checks that it is the same user
     <li class='dropdown' style="height: auto; margin-top: -20px; ">
         <a class='dropdown-toggle'' data-toggle='dropdown'' href='#'>Ingrediants<span class='caret' id='caret'></span></a>   
         <ul class='dropdown-menu' id='dropdown-menu'>
-            <li><a href='#'>Cayenne</a></li>
-            <li><a href='#'>Saffron</a></li>
-            <li><a href='#'>Spearmint</a></li>
+            <li><a href='../ingredients/cayenne.php'>Cayenne</a></li>
+            <li><a href='../ingredients/saffron.php'>Saffron</a></li>
+            <li><a href='../ingredients/spearmint.php'>Spearmint</a></li>
         </ul>
     </li>
     
