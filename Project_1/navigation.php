@@ -57,12 +57,12 @@ if(isset($_SESSION['username'])){ //checks that it is the same user
 						<li class='active' id='home'><a href='../home/home.php'>Home</a></li> <!-- Sets home to be depressed or active. In this menu it adds it to the nav and to the hamburger menu -->
 
 						<li class="dropdown hidden-md hidden-lg">
-							<a class='dropdown-toggle hidden-sm hidden-md hidden-lg' data-toggle='dropdown' href='#'>Ingrediants<span class='caret'></span></a>   
+							<a class='dropdown-toggle hidden-sm hidden-md hidden-lg' data-toggle='dropdown' href='#'>Ingredients<span class='caret'></span></a>   
 							<!-- data-toggle enables the dropdown and needs to be named dropdown and span w/ class will create the symbol -->
 							<ul class="dropdown-menu"> <!-- dropdown-menu puts the assignments under the assignment dropdown -->
-								<li><a href='#'>Cayenne</a></li>
-                                <li><a href='#'>Saffron</a></li>
-                                <li><a href='#'>Spearmint</a></li>
+								<li><a href='../ingredients/cayenne.php'>Cayenne</a></li>
+                                <li><a href='../ingredients/saffron.php'>Saffron</a></li>
+                                <li><a href='../ingredients/spearmint.php'>Spearmint</a></li>
 							</ul>   
 						</li><!--end of class dropdown-->
                         <li><a class="hidden-sm hidden-md hidden-lg" href='../about/about.php'>About</a></li>
@@ -82,10 +82,10 @@ if(isset($_SESSION['username'])){ //checks that it is the same user
     <?php echo $logged_in ?>
     <li><a href='../home/home.php'>Home</a></li>
     <li class='dropdown' style="height: auto; margin-top: -20px; ">
-        <a class='dropdown-toggle'' data-toggle='dropdown'' href='#'>Ingrediants<span class='caret' id='caret'></span></a>   
+        <a class='dropdown-toggle' data-toggle='dropdown' href='#'>Ingredients<span class='caret' id='caret'></span></a>   
         <ul class='dropdown-menu' id='dropdown-menu'>
             <li><a href='../ingredients/cayenne.php'>Cayenne</a></li>
-            <li><a href='../ingredients/saffron.php'>Saffron</a></li>
+            <li><a href='../ingredients/spearmint.php'>Saffron</a></li>
             <li><a href='../ingredients/spearmint.php'>Spearmint</a></li>
         </ul>
     </li>

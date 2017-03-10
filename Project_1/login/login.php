@@ -30,7 +30,7 @@ if(isset($_POST['sub'])){
   }
 
   if(isset($_SESSION['username'])){ //checks that it is the same user
-    echo "You logged in as ", $_SESSION['username'];
+    //echo "You logged in as ", $_SESSION['username'];
     $logout = "<a href='./logout.php'>Logout</a>";
   }
   
